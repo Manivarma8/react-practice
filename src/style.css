@@ -1,0 +1,90 @@
+body{
+    background: linear-gradient(to right ,black,rgb(3, 3, 40));
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    height : 100vh;
+    position: relative;
+}                  
+.ground{
+    display: flex;
+    flex-direction: column;
+    width : 80%;
+    height :500px;
+   
+}
+.base{
+    width : 500px;
+    height : 400px;
+    display : flex;
+    justify-content: center;
+    border-radius: 20px;
+    margin : auto auto
+    
+    
+}
+.button{
+    display : flex;
+}
+
+.Date{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.Hippo{
+    margin-bottom: 100px;
+    gap : 50px
+}
+p{
+    color : white
+}
+input{
+    background-color: #797979;
+    color: aliceblue;
+    font-weight: bold;
+    
+}
+::-webkit-input-placeholder {
+    color: rgb(210, 210, 218);
+  }
+
+.manibtn{
+    position: absolute;
+    bottom: 10rem;
+   
+}
+
+.manibt{
+    position: absolute;
+    bottom: 10rem;
+    right: 0rem;
+}
+.button{
+    position: relative;
+    margin-top : 230px;
+}
+@media (max-width : 768px) {
+    .base{
+    width : 350px;
+    font-size: 16px;
+}
+.base h1{
+    font-size: 24px;
+}
+h1{
+    font-size: 25px; 
+}
+h2{
+    font-size: 20px;
+}
+button{
+    width : 77px;
+}
+} 
+
+{
+    
+}
